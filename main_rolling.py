@@ -81,7 +81,7 @@ PORT           = int(os.getenv("PORT", "8080"))
 SURVEY_SYMBOLS = ["1HZ10V"]
 
 # Martingale
-BASE_STAKE        = float(os.getenv("BASE_STAKE",    "1.0"))
+BASE_STAKE        = float(os.getenv("BASE_STAKE",    "1.01"))
 MARTINGALE_MULT   = float(os.getenv("MARTI_MULT",    "4.45"))
 MARTINGALE_STEPS  = int(os.getenv("MARTI_STEPS",     "3"))
 LOSS_COOLDOWN     = float(os.getenv("LOSS_COOLDOWN", "45"))
