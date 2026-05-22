@@ -1,0 +1,9 @@
+# Don't upload local data to Railway
+data/
+*.json
+*.pkl
+*.csv
+__pycache__/
+*.pyc
+.env
+.DS_Store
