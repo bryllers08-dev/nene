@@ -1,0 +1,17 @@
+# EXPIRYRANGE 3-Layer Ensemble Bot — requirements
+# Install with: pip install -r requirements.txt
+
+# WebSocket connection to Deriv API
+websockets>=12.0
+
+# Layer 1 — XGBoost classifier
+# (bot falls back to sklearn GBM automatically if this fails to install)
+xgboost>=2.0
+
+# Layer 2 — Logistic Regression + Polynomial Features
+# Layer 3 — Isolation Forest
+# Also provides GBM fallback for Layer 1
+scikit-learn>=1.3
+
+# Numerical arrays (feature matrix construction)
+numpy>=1.26
