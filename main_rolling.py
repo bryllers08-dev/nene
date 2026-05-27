@@ -81,7 +81,7 @@ except ImportError:
 # CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
 
-API_TOKEN  = os.getenv("DERIV_API_TOKEN", "YOUR_TOKEN_HERE")
+API_TOKEN  = os.getenv("DERIV_API_TOKEN", "iCCn0vuMCzLcq1J")
 APP_ID     = os.getenv("DERIV_APP_ID",    "1089")
 WS_URL     = f"wss://ws.binaryws.com/websockets/v3?app_id={APP_ID}"
 
