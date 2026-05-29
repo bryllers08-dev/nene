@@ -1,0 +1,32 @@
+# Ignore local data — Railway uses the Volume + Supabase
+data/
+*.keras
+*.pkl
+*.json
+advisor_log.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore

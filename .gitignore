@@ -1,0 +1,22 @@
+# Local data — never commit model or CSV to git
+data/
+*.keras
+*.pkl
+advisor_log.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
